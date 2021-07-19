@@ -2,6 +2,7 @@
   padding: 40px;
   display: flex;
   margin: 0;
+  flex-wrap: wrap;
   height: 100vh;
   background: rgb(14,0,255);
 background: linear-gradient(318deg, rgba(14,0,255,1) 0%, rgba(7,35,99,1) 14%, rgba(208,33,33,1) 26%, rgba(71,200,95,1) 35%, rgba(121,162,6,1) 55%, rgba(4,189,172,1) 68%, rgba(3,131,201,1) 86%, rgba(0,212,255,1) 100%);
@@ -12,6 +13,10 @@ background: linear-gradient(318deg, rgba(14,0,255,1) 0%, rgba(7,35,99,1) 14%, rg
     flex-direction: column;
 }
 
+.App-image {
+    margin-left: 50px;
+}
+
 .App li {
     list-style-type: none;
     margin: 10px 0;
@@ -20,8 +25,7 @@ background: linear-gradient(318deg, rgba(14,0,255,1) 0%, rgba(7,35,99,1) 14%, rg
 .App-catchphrase {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     color: white;
-  width: 550px;
   font-weight: 600;
-  font-size: 2em;
+  font-size: 1.6em;
   transform: rotate(-14deg);
 }

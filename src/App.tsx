@@ -22,7 +22,7 @@ function App() {
                 graphic design is my passion
             </div>
         </div>
-        <div>
+        <div className="App-image">
             <img src={cat} alt="awesome cat" width="200px" />
         </div>
     </div>
