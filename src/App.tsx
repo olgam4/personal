@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from './components/Link'
 
-import cat from './images/cat.png'
+import cat from './images/cat.jpeg'
 
 import './App.css'
 
