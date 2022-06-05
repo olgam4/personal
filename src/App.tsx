@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from './components/Link'
 
-import cat from './images/cat.jpeg'
+import cat from './images/cat.png'
 
 import './App.css'
 
@@ -14,6 +14,7 @@ function App() {
             </h1>
             <ul>
                 <li><Link name="github" url="https://github.com/olgam4" /></li>
+                <li><Link name="todo" url="https://todo.glo.quebec" /></li>
                 <li><Link name="astrorush" url="https://astrorush.glo.quebec/" /></li>
                 <li><Link name="linkedin" url="https://linkedin.com/in/olivier-gamache-1337420" /></li>
                 <li><Link name="medium" url="https://oliviergamache.medium.com" /></li>
